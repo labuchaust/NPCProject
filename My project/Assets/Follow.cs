@@ -6,18 +6,23 @@ namespace NodeCanvas.Tasks.Actions{
 
 	public class Follow : ActionTask{
 
-		public Transform playerTransform;
-		public Transform objectTransform;
-		private float speed = 5f;
+		public GameObject target; // the GameObject to follow
+		public float distance = 2f; // distance to keep from the target
+		public float speed = 5f; // speed of movement
 		public GameObject sprite;
+
 
 
 		//Use for initialization. This is called only once in the lifetime of the task.
 		//Return null if init was successfull. Return an error string otherwise
-		protected override string OnInit(){
-			//find player with tag
-			playerTransform = GameObject.FindWithTag("Player").transform;
-			objectTransform = sprite.GetComponent<Transform>();
+
+
+		protected override string OnInit()
+		{
+
+
+
+
 			//objectTransform = playerTransform;
 			return null;
 		}
@@ -25,26 +30,60 @@ namespace NodeCanvas.Tasks.Actions{
 		//This is called once each time the task is enabled.
 		//Call EndAction() to mark the action as finished, either in success or failure.
 		//EndAction can be called from anywhere.
-		protected override void OnExecute(){
-			EndAction(true);
+		protected override void OnExecute()
+		{
+			//objectTransform.position = Vector3.MoveTowards(objectTransform.position, playerTransform.position, speed * Time.deltaTime);
 		}
 
 		//Called once per frame while the action is active.
-		protected override void OnUpdate(){
+		protected override void OnUpdate()
+		{
 
-			//makes the object follow player
-			objectTransform.position = Vector3.MoveTowards(objectTransform.position, playerTransform.position, speed * Time.deltaTime);
+
+			Vector3 targetPos = target.transform.position;
+			Vector3 currentPos = sprite.transform.position;
+			Vector3 direction = targetPos - currentPos;
+			float distanceToTarget = direction.magnitude;
+
+			if (distanceToTarget > distance)
+			{
+				direction = direction.normalized;
+				sprite.transform.position = currentPos + direction * speed * Time.deltaTime;
+			}
+			sprite.GetComponent<Renderer>().material.color = Color.green;
+
+
+
+
+			//if (firecurrenthealth <= 0)
+			//{
+			//	Die();
+			//}
+
+
+
+
 
 		}
 
+
+
+
+
+
+
+
+
 		//Called when the task is disabled.
-		protected override void OnStop(){
-			
+		protected override void OnStop()
+		{
+
 		}
 
 		//Called when the task is paused.
-		protected override void OnPause(){
-			
+		protected override void OnPause()
+		{
+
 		}
 	}
 }

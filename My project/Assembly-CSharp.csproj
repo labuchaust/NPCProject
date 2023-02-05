@@ -57,9 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Attack.cs" />
+    <Compile Include="Assets\Hide1.cs" />
     <Compile Include="Assets\Walk.cs" />
+    <Compile Include="Assets\DecreaseHealth.cs" />
     <Compile Include="Assets\Death.cs" />
-    <Compile Include="Assets\RandomPosition.cs" />
+    <Compile Include="Assets\AttackFire.cs" />
     <Compile Include="Assets\Follow.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\PlayerController.cs" />

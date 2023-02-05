@@ -3,6 +3,7 @@ using ParadoxNotion.Design;
 using System;
 using UnityEngine;
 
+
 namespace NodeCanvas.Tasks.Actions{
 
 	public class Attack : ActionTask{
@@ -13,20 +14,24 @@ namespace NodeCanvas.Tasks.Actions{
 		private float speed = 5f;
 		public GameObject sprite;
 		float radius;
+		public float distance = 2f;
 
-		public float firecurrenthealth;
-		public float maxHealth;
-		
+
+
+
+
 		//Use for initialization. This is called only once in the lifetime of the task.
 		//Return null if init was successfull. Return an error string otherwise
 
 
 		protected override string OnInit(){
 
-			firecurrenthealth = maxHealth;
 			//find player with tag
 			playerTransform = GameObject.FindWithTag("Player").transform;
 			objectTransform = sprite.GetComponent<Transform>();
+
+
+
 			//objectTransform = playerTransform;
 			return null;
 		}
@@ -41,10 +46,19 @@ namespace NodeCanvas.Tasks.Actions{
 		//Called once per frame while the action is active.
 		protected override void OnUpdate(){
 			//makes the object follow player
-			objectTransform.position = Vector3.MoveTowards(objectTransform.position, playerTransform.position, speed * Time.deltaTime);
 
+
+			Vector3 targetPos = playerTransform.transform.position;
+			Vector3 currentPos = sprite.transform.position;
+			Vector3 direction = targetPos - currentPos;
+			float distanceToTarget = direction.magnitude;
 			sprite.GetComponent<Renderer>().material.color = Color.blue;
 
+			if (distanceToTarget > distance)
+			{
+				direction = direction.normalized;
+				sprite.transform.position = currentPos + direction * speed * Time.deltaTime;
+			}
 
 
 			//check for player collision
@@ -54,37 +68,22 @@ namespace NodeCanvas.Tasks.Actions{
 				DecreasePlayerHealth();
 			}
 
-            if (Input.GetKeyDown("z"))
-            {
-                AttackEnemy();
-            }
+           
 			//if (firecurrenthealth <= 0)
 			//{
 			//	Die();
 			//}
 
+			
 
 
 
 		}
-
-		private void AttackEnemy()
-        {
-			firecurrenthealth--;
 
 		
-		}
-
-
-		//private void Die()
-		//{
-		//	Debug.Log("Death");
-		//	sprite.GetComponent<Renderer>().material.color = Color.red;
-		//}
-
 
 		private bool CheckForPlayerCollision()
-        {
+		{
 			Collider[] colliders = Physics.OverlapSphere(objectTransform.position, radius);
 			foreach (Collider collider in colliders)
 			{
@@ -95,7 +94,6 @@ namespace NodeCanvas.Tasks.Actions{
 			}
 			return false;
 		}
-
 
 
 		private void DecreasePlayerHealth()

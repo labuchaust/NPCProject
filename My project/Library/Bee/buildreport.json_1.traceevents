@@ -1,0 +1,556 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675104218101156, "dur": 1462782, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675104218101408, "dur": 9521, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675104218110932, "dur": 31884, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675104218142825, "dur": 505992, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675104218648819, "dur": 902626, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675104219551447, "dur": 12491, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675104219564828, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675104218496942, "dur": 135728, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675104218497785, "dur": 39588, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675104218614496, "dur": 5460, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675104218619962, "dur": 12687, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675104218620724, "dur": 10779, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675104218637539, "dur": 1277, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675104218636725, "dur": 2130, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675104219565066, "dur": 475, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675104218694899, "dur":2602, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104218697512, "dur":46, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675104218697573, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675104218697590, "dur":710, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675104218698336, "dur":608, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104218698944, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538027, "dur":499, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538526, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538541, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538543, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538549, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538550, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538557, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538558, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538564, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538566, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538570, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538571, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538576, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538577, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538580, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538581, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538586, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538587, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538591, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538592, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538597, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538598, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538602, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538603, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538607, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538609, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538614, "dur":41, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538655, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538659, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538661, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538665, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538667, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538671, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538686, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219538703, "dur":2719, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675104218698735, "dur":257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104218698992, "dur":6121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104218705114, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675104218705407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104218717450, "dur":4351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1675104218721930, "dur":58494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675104218780437, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104218780456, "dur":8242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project.exe" }}
+,{ "pid":12345, "tid":1, "ts":1675104218788779, "dur":64964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104218853753, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104218853771, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104218857756, "dur":39016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104218896781, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104218896812, "dur":30774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104218927679, "dur":44854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104218972544, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104218972562, "dur":9088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104218981746, "dur":179217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104219160974, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104219160990, "dur":7031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104219168083, "dur":248964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104219417056, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675104219417071, "dur":5059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675104219422174, "dur":115858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218698653, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218698969, "dur":6103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218705089, "dur":690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675104218705783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218737382, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1675104218741870, "dur":42059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218783943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218783960, "dur":9817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218793852, "dur":28153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218822012, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218822024, "dur":10162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218832251, "dur":44566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218876830, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218876854, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218880804, "dur":24351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218905164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218905176, "dur":23877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218929192, "dur":51367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218980569, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104218980585, "dur":6854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104218987527, "dur":24636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104219012173, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104219012191, "dur":2330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104219014587, "dur":110269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104219124862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104219124871, "dur":4133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104219129072, "dur":116631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104219245709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104219245719, "dur":5656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104219251434, "dur":185301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104219436770, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675104219436779, "dur":2131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675104219438949, "dur":99089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218698567, "dur":385, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218698955, "dur":6112, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218705090, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1675104218705103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218707731, "dur":1155, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1675104218708898, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1675104218709005, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218709511, "dur":5419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1675104218714933, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675104218715126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218716135, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675104218719683, "dur":140110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104218859804, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218860087, "dur":15963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104218876142, "dur":20846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104218896992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218897001, "dur":33438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104218930505, "dur":20807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104218951320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218951334, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104218954664, "dur":26902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104218981574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104218981587, "dur":7664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104218989329, "dur":52332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104219041670, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104219041685, "dur":3597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104219045339, "dur":74648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104219119995, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104219120009, "dur":5130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104219125217, "dur":91019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104219216246, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104219216261, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104219221355, "dur":132775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104219354136, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675104219354145, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675104219357676, "dur":180360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675104218698644, "dur":316, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675104218698960, "dur":6132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675104218705101, "dur":11951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675104218717057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675104218717189, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1675104218719972, "dur":355480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675104219075458, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675104219075466, "dur":61155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675104219136693, "dur":43739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675104219180487, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675104219180502, "dur":4344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675104219185207, "dur":160672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675104219345886, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675104219345944, "dur":5243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675104219351236, "dur":186794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104218698727, "dur":256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104218698983, "dur":6087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104218705089, "dur":56804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1675104218761904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104218762622, "dur":4612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1675104218767317, "dur":39689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104218807016, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104218807030, "dur":6991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104218814136, "dur":167000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104218981143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104218981152, "dur":8147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104218989380, "dur":32970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104219022359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104219022381, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104219025599, "dur":99069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104219124679, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104219124697, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104219130303, "dur":54574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104219184883, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104219184896, "dur":26528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104219211481, "dur":128754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104219340244, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675104219340258, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675104219343256, "dur":194791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104218698822, "dur":182, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104218699004, "dur":6080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104218705089, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675104218705487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104218720200, "dur":5572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675104218726002, "dur":68784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104218794799, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104218794816, "dur":12354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104218807239, "dur":67176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104218874426, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104218874442, "dur":5754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104218880280, "dur":36714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104218917003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104218917014, "dur":10621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104218927721, "dur":45817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104218973548, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104218973562, "dur":4907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104218978545, "dur":27911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219006465, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104219006478, "dur":4097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219010645, "dur":27998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219038651, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104219038664, "dur":5670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219044424, "dur":46665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219091097, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104219091113, "dur":8753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219099950, "dur":72390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219172347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104219172359, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219175423, "dur":199875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219375305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675104219375315, "dur":4476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675104219379847, "dur":158173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104218698890, "dur":125, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104218699015, "dur":6085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104218705101, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675104218705636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104218722993, "dur":7445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675104218730554, "dur":54001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104218784565, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104218784576, "dur":5246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104218789918, "dur":33633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104218823561, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104218823575, "dur":13874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104218837531, "dur":59243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104218896795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104218896807, "dur":38808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104218935697, "dur":60173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104218995878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104218995889, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104218999160, "dur":204693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104219203863, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104219203879, "dur":12602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104219216544, "dur":146959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/ParadoxNotion.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104219363510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675104219363518, "dur":3054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/ParadoxNotion.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675104219366617, "dur":171416, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104218698939, "dur":84, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104218699023, "dur":6052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104218705091, "dur":11104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1675104218716207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104218716666, "dur":2142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1675104218718890, "dur":70487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104218789395, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104218789828, "dur":4097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104218794008, "dur":58611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104218852629, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104218852645, "dur":4314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104218857031, "dur":46140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104218903173, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104218903181, "dur":28115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104218931387, "dur":98086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219029478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104219029487, "dur":6498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219036069, "dur":1219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219037296, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104219037309, "dur":4882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219042266, "dur":48672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219090950, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104219090968, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219093875, "dur":1813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219095700, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104219095717, "dur":6565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219102353, "dur":170844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219273206, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104219273221, "dur":3563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219276844, "dur":52585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219329440, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675104219329457, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675104219333800, "dur":204226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104218698998, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104218698998, "dur":6122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104218705121, "dur":13665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1675104218718790, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104218718814, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1675104218721898, "dur":123799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1675104218845704, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104218845715, "dur":5531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1675104218851327, "dur":51275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104218902605, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104218902613, "dur":27395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104218930096, "dur":29784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104218959889, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104218959903, "dur":3205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104218963175, "dur":21765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104218984948, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104218984961, "dur":5037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104218990066, "dur":50085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104219040160, "dur":1700, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104219041873, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104219046273, "dur":1988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104219048271, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104219048288, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104219051193, "dur":41749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104219092951, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104219092964, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104219097745, "dur":276019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104219373771, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675104219373780, "dur":5199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675104219379029, "dur":159027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104218699082, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104218699083, "dur":6012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104218705095, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1675104218705402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104218710474, "dur":4442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1675104218714990, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1675104218715131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104218715410, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1675104218718569, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1675104218718775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104218718789, "dur":3879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1675104218723267, "dur":88565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104218811840, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104218811856, "dur":6122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104218818069, "dur":146711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104218964788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104218964800, "dur":4234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104218969104, "dur":38393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104219007506, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104219007518, "dur":3631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104219011213, "dur":80494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104219091712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104219091724, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104219094407, "dur":107543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104219201958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104219201971, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104219205359, "dur":121460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104219326827, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675104219326840, "dur":5823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675104219332731, "dur":205285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218699132, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218699132, "dur":6053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218705186, "dur":14027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1675104218719219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218719238, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1675104218722519, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1675104218722694, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218723696, "dur":18462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1675104218742246, "dur":39404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218781661, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218781779, "dur":6605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218788465, "dur":27341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218815818, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218815834, "dur":13309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218829231, "dur":42355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218871593, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218871606, "dur":5422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218877094, "dur":26069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218903170, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218903181, "dur":24000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218927315, "dur":47249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218974629, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104218974642, "dur":4974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104218979688, "dur":24725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219004424, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104219004439, "dur":2527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219007037, "dur":38578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219045623, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104219045635, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219048511, "dur":1354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219049875, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104219049891, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219052383, "dur":34525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219086918, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104219086935, "dur":4702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219091734, "dur":36051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219127794, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104219127808, "dur":3920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219131802, "dur":102640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219234449, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104219234505, "dur":4049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219238629, "dur":293383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219532017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675104219532025, "dur":5889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675104219537969, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1675104219537972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104218699193, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104218699193, "dur":5895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104218705093, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1675104218705449, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104218719272, "dur":6332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1675104218725705, "dur":41550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104218767265, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104218774841, "dur":12122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104218787040, "dur":35156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104218822205, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104218822220, "dur":10568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104218832855, "dur":130785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104218963647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104218963660, "dur":5752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104218969486, "dur":44115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104219013610, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104219013624, "dur":5389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104219019066, "dur":159657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104219178734, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104219178751, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104219182741, "dur":50808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104219233708, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104219233722, "dur":4178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104219237977, "dur":95078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104219333061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675104219333071, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675104219336130, "dur":201889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104218699246, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104218699246, "dur":5887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104218705134, "dur":750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1675104218705887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104218746631, "dur":7084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1675104218753799, "dur":114264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104218868073, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104218868086, "dur":8993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104218877153, "dur":25294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104218902459, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104218902477, "dur":26631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104218929217, "dur":33462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104218962689, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104218962708, "dur":5512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104218968312, "dur":60989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104219029308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104219029319, "dur":7673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104219037072, "dur":60562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104219097643, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104219097660, "dur":7882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104219105626, "dur":187749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104219293408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104219293415, "dur":4845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675104219298446, "dur":32728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1675104219331182, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675104219331194, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1675104219334541, "dur":203487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218699309, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218699309, "dur":5789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218705099, "dur":14171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1675104218719276, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218719299, "dur":3885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1675104218723278, "dur":40825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218764116, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218764977, "dur":3707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218768778, "dur":44791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218813580, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218813622, "dur":13954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218827649, "dur":57504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218885164, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218885177, "dur":7210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218892469, "dur":19740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218912218, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218912228, "dur":21933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218934232, "dur":41866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218976104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104218976115, "dur":10737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104218986929, "dur":23108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104219010045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104219010059, "dur":7470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104219017597, "dur":118415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104219136021, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104219136077, "dur":21143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104219157304, "dur":188686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104219345996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675104219346005, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675104219350598, "dur":187446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104218699368, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104218699368, "dur":5713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104218705090, "dur":14236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1675104218719329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104218720071, "dur":6484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1675104218726651, "dur":58551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104218785216, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104218785238, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104218788477, "dur":35192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104218823672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104218823679, "dur":18390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104218842145, "dur":53133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104218895288, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104218895306, "dur":29958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104218925344, "dur":50443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104218975800, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104218975815, "dur":9358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104218985260, "dur":34362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104219019630, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219019643, "dur":15661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104219035383, "dur":233288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104219268678, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219268689, "dur":15232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675104219283988, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":15, "ts":1675104219284281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219285087, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":15, "ts":1675104219287386, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1675104219287440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219287501, "dur":5709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1675104219293286, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1675104219293340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219293409, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1675104219296637, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1675104219296910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219296919, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1675104219299205, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":15, "ts":1675104219299255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219299263, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/level0.resS" }}
+,{ "pid":12345, "tid":15, "ts":1675104219302443, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1675104219302502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219302513, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1675104219305283, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1675104219305346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675104219305360, "dur":15172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":15, "ts":1675104219320642, "dur":217379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104218699429, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104218699429, "dur":5650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104218705090, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1675104218705674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104218732816, "dur":8052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1675104218740988, "dur":43471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104218784471, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104218784487, "dur":5342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104218789927, "dur":92180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104218882115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104218882127, "dur":3667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104218885868, "dur":22287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104218908162, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104218908176, "dur":22281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104218930525, "dur":57309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104218987842, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104218987874, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104218991137, "dur":45134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104219036277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104219036295, "dur":7908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104219044277, "dur":51521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104219095801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104219095808, "dur":9328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104219105220, "dur":197605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104219302831, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104219302843, "dur":3868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675104219306771, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1675104219306825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104219306834, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":16, "ts":1675104219309359, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/launa/Downloads/buildprototype/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1675104219309681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675104219309691, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/launa/Downloads/buildprototype/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":16, "ts":1675104219312282, "dur":225733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675104219543859, "dur":2093, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675104219565684, "dur": 1064, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675104219564810, "dur": 1978, "ph": "X", "name": "Write chrome-trace events", "args": {} },
