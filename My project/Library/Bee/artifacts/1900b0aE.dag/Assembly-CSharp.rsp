@@ -357,6 +357,7 @@
 "Assets/DecreaseHealth.cs"
 "Assets/Follow.cs"
 "Assets/Hide1.cs"
+"Assets/IceHIde.cs"
 "Assets/PlayerController.cs"
 "Assets/Walk.cs"
 -langversion:9.0

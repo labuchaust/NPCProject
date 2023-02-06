@@ -18,24 +18,16 @@ namespace NodeCanvas.Tasks.Actions{
 		protected override string OnInit(){
 
 			objectToDespawn.SetActive(false);
-			Invoke("Respawn", respawnTime);
+			
 			return null;
 		}
 
-		void Respawn()
-		{
-			objectToDespawn.SetActive(true);
-		}
+		
 
-		private void Invoke(string v, float respawnTime)
-        {
-            throw new NotImplementedException();
-        }
-
-        //This is called once each time the task is enabled.
-        //Call EndAction() to mark the action as finished, either in success or failure.
-        //EndAction can be called from anywhere.
-        protected override void OnExecute(){
+		//This is called once each time the task is enabled.
+		//Call EndAction() to mark the action as finished, either in success or failure.
+		//EndAction can be called from anywhere.
+		protected override void OnExecute(){
 			EndAction(true);
 		}
 

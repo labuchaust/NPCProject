@@ -65,6 +65,7 @@
     <Compile Include="Assets\Follow.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\IceHIde.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
